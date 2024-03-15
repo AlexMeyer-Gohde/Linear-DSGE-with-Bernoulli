@@ -1,0 +1,113 @@
+Starting Dynare (version 5.1).
+Calling Dynare with arguments: noclearall nograph nostrict
+Starting preprocessing of the model file ...
+Substitution of endo lags >= 2: added 2 auxiliary variables and equations.
+Found 43 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+
+[Warning: Some of the parameters have no value (ccs, cinvs, crdpi) when using steady.
+If these parameters are not initialized in a steadystate file or a
+steady_state_model-block, Dynare may not be able to solve the model. Note that simul,
+perfect_foresight_setup, and perfect_foresight_solver do not automatically call the
+steady state file.] 
+
+STEADY-STATE RESULTS:
+
+labobs            		 0.5509
+robs              		 0.1657
+pinfobs           		 0.7869
+dy                		 0.4312
+dc                		 0.4312
+dinve             		 0.4312
+dw                		 0.4312
+ewma              		 0
+epinfma           		 0
+zcapf             		 0
+rkf               		 0
+kf                		 0
+pkf               		 0
+cf                		 0
+invef             		 0
+yf                		 0
+labf              		 0
+wf                		 0
+rrf               		 0
+mc                		 0
+zcap              		 0
+rk                		 0
+k                 		 0
+pk                		 0
+c                 		 0
+inve              		 0
+y                 		 0
+lab               		 0
+pinf              		 0
+w                 		 0
+r                 		 0
+a                 		 0
+b                 		 0
+g                 		 0
+qs                		 0
+ms                		 0
+spinf             		 0
+sw                		 0
+kpf               		 0
+kp                		 0
+pinf4             		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+               0                0                0
+               0                0                0
+       5.091e-18        5.091e-18                0
+       9.355e-18        9.355e-18                0
+       9.438e-18       -9.438e-18                0
+        1.18e-16        -1.18e-16                0
+          0.1479           0.1479                0
+          0.2194           0.2194                0
+          0.2397           0.2397                0
+          0.5279           0.5279                0
+          0.6542           0.6542                0
+          0.7113           0.7113                0
+          0.8302           0.8249          0.09418
+          0.8302           0.8249         -0.09418
+          0.8393           0.8393                0
+          0.8433           0.8433                0
+          0.8895           0.8895                0
+          0.9577           0.9577                0
+          0.9626           0.9626                0
+           0.964            0.964                0
+          0.9688           0.9688                0
+          0.9767           0.9767                0
+           1.053            1.053                0
+           1.062            1.062                0
+           1.083            1.083                0
+           1.142            1.124           0.2033
+           1.142            1.124          -0.2033
+            1.21             1.21                0
+           1.249            1.249                0
+       4.634e+16        4.634e+16                0
+       5.189e+16       -5.189e+16                0
+       1.045e+17       -1.045e+17                0
+       6.827e+17       -6.827e+17                0
+       7.947e+17        7.947e+17                0
+
+
+There are 12 eigenvalue(s) larger than 1 in modulus 
+for 12 forward-looking variable(s)
+
+The rank condition is verified.
+
+[Warning: Some of the parameters have no value (ccs, cinvs, crdpi) when using
+stoch_simul. If these parameters are not initialized in a steadystate file or a
+steady_state_model-block, Dynare may not be able to solve the model. Note that simul,
+perfect_foresight_setup, and perfect_foresight_solver do not automatically call the
+steady state file.] 
+Total computing time : 0h00m00s
+Note: warning(s) encountered in MATLAB/Octave code
