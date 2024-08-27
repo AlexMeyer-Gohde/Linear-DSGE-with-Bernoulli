@@ -1,7 +1,7 @@
 # Linear DSGE with Bernoulli
 Solving Linear DSGE Models with Bernoulli Methods
 
-The directory strucure is as follows:
+The directory structure is as follows:
 
 - "algorithm" contains the algorithms with bernoulli_matrix_quadratic.m being the main algorithm
 
